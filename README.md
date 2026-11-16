@@ -2,6 +2,10 @@
 
 https://github.com/lostdiablodream/strapi/blob/main/strapi-docker.tar.gz
 
+## env лежит в ./lab/strapi-app/.env
+запуск: docker compose --env-file strapi-app/.env up -d
+
+
 Лабораторная работа на Strapi 5.62.0, Node.js 22 и PostgreSQL 16. Браузер открывает статический фронтенд nginx, который обращается к публичному Strapi API. Strapi хранит записи в PostgreSQL, а загруженные файлы — в отдельном named volume.
 
 ## Быстрый запуск
