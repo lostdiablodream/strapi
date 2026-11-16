@@ -1,6 +1,7 @@
 # Strapi + PostgreSQL + nginx в Docker
 
-https://github.com/lostdiablodream/strapi/blob/main/strapi-docker.tar.gz
+## Отчёт: https://github.com/lostdiablodream/strapi/blob/main/report.docx 
+## Код: https://github.com/lostdiablodream/strapi/blob/main/strapi-docker.tar.gz
 
 ## env лежит в ./lab/strapi-app/.env
 ## запуск: docker compose --env-file strapi-app/.env up -d
